@@ -140,6 +140,7 @@ label.logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 /* nav */
 .ddl_typesweight-regular {
@@ -276,18 +277,16 @@ h4:after {
   padding: 10px;
   /* border-bottom: #ff5b19 4px solid; */
 }
-.ddl_width_image{
+.ddl_width_image {
   width: 400px;
   height: 400px;
 }
-#images-gap{
-  margin-top: 80px
-
+#images-gap {
+  margin-top: 80px;
 }
 .ddl_border-project-item {
   position: relative;
   z-index: 1;
-
   padding-bottom: 30px;
 }
 .ddl_border-project-item:after {
@@ -349,16 +348,28 @@ h4:after {
     flex-direction: column;
   }
 
-  img.ddl_width_image{
+  img.ddl_width_image {
     width: 300px;
     height: 300px;
   }
-  #images-gap{
-    margin-top: 0px
-  
+  #images-gap {
+    margin-top: 0px;
   }
-  img.ddl_images-astro{
+  img.ddl_images-astro {
     width: 300px;
+  }
+  #ddl_typesscale-display-s {
+    font-size: 2.25rem;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    line-height: 1.2;
+    font-style: normal;
+  }
+  div.btn {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
   }
 }
 .form-control {
@@ -404,7 +415,7 @@ h4:after {
   justify-content: center;
   align-items: center;
 }
-.footer{
+.footer {
   margin-top: 100px;
   display: flex;
   text-align: center;
