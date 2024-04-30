@@ -432,6 +432,23 @@ h4:after {
   line-height: 1.5;
   font-style: normal;
 }
-/* label.form-label{
-  text-align: left;
-} */
+.btn-ddl_primary {
+  --bs-btn-font-weight: var(--ddl-font-weight-bold);
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #ff5b19;
+  --bs-btn-border-color: #000000;
+  padding: 0.5rem 3rem;
+  border-radius: 0;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #a72424;
+  --bs-btn-hover-border-color: #000000;
+  --bs-btn-active-color: #d1c8c4;
+  --bs-btn-active-bg: var(--secondary-40);
+  --bs-btn-active-border-color: var(--secondary-40);
+  box-shadow: 6px 6px rgba(22, 22, 22, 0.9);
+}
+
+button:hover {
+  background: #383;
+}
+  
